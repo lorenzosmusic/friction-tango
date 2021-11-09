@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="friction-tango" sample-rate="44100" end-is-free="0" id-counter="2794" name-counter="1" event-counter="243" vca-counter="1">
+<Session version="3002" name="friction-tango" sample-rate="44100" end-is-free="0" id-counter="2796" name-counter="1" event-counter="252" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -302,7 +302,7 @@
         <AutomationList automation-id="monitor" id="197" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="177" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="177" flags="" value="0"/>
         <Controllable name="pan-width" id="181" flags="" value="0"/>
         <Controllable name="pan-elevation" id="179" flags="" value="0"/>
         <Controllable name="pan-frontback" id="183" flags="" value="0"/>
@@ -327,7 +327,7 @@
         </Automation>
         <Controllable name="gaincontrol" id="162" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="2549" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
+      <Processor id="2549" name="Calf Equalizer 8 Band" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-4" id="2550" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-5" id="2552" interpolation-style="Linear" state="Off"/>
@@ -415,9 +415,9 @@
           <Port symbol="p2_level" value="1"/>
           <Port symbol="p2_freq" value="500"/>
           <Port symbol="p2_q" value="1"/>
-          <Port symbol="p3_active" value="0"/>
-          <Port symbol="p3_level" value="0.34464985132217407"/>
-          <Port symbol="p3_freq" value="2098.119140625"/>
+          <Port symbol="p3_active" value="1"/>
+          <Port symbol="p3_level" value="0.30566927790641785"/>
+          <Port symbol="p3_freq" value="895.8392333984375"/>
           <Port symbol="p3_q" value="1"/>
           <Port symbol="p4_active" value="0"/>
           <Port symbol="p4_level" value="1"/>
@@ -455,9 +455,9 @@
         <Controllable name="Level 2" id="2599" flags="" value="1" parameter="36" symbol="p2_level"/>
         <Controllable name="Freq 2" id="2601" flags="" value="500" parameter="37" symbol="p2_freq"/>
         <Controllable name="Q 2" id="2603" flags="" value="1" parameter="38" symbol="p2_q"/>
-        <Controllable name="F3 Active" id="2605" flags="" value="0" parameter="39" symbol="p3_active"/>
-        <Controllable name="Level 3" id="2607" flags="" value="0.34464985132217407" parameter="40" symbol="p3_level"/>
-        <Controllable name="Freq 3" id="2609" flags="" value="2098.119140625" parameter="41" symbol="p3_freq"/>
+        <Controllable name="F3 Active" id="2605" flags="" value="1" parameter="39" symbol="p3_active"/>
+        <Controllable name="Level 3" id="2607" flags="" value="0.30566927790641785" parameter="40" symbol="p3_level"/>
+        <Controllable name="Freq 3" id="2609" flags="" value="895.8392333984375" parameter="41" symbol="p3_freq"/>
         <Controllable name="Q 3" id="2611" flags="" value="1" parameter="42" symbol="p3_q"/>
         <Controllable name="F4 Active" id="2613" flags="" value="0" parameter="43" symbol="p4_active"/>
         <Controllable name="Level 4" id="2615" flags="" value="1" parameter="44" symbol="p4_level"/>
@@ -567,7 +567,7 @@
       <Processor id="191" name="drums" active="1" user-latency="0" own-input="1" own-output="0" output="drums" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="177" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="177" flags="" value="0"/>
           <Controllable name="pan-width" id="181" flags="" value="0"/>
           <Controllable name="pan-elevation" id="179" flags="" value="0"/>
           <Controllable name="pan-frontback" id="183" flags="" value="0"/>
@@ -617,7 +617,7 @@
         <AutomationList automation-id="monitor" id="258" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="238" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="238" flags="" value="1"/>
         <Controllable name="pan-width" id="242" flags="" value="0"/>
         <Controllable name="pan-elevation" id="240" flags="" value="0"/>
         <Controllable name="pan-frontback" id="244" flags="" value="0"/>
@@ -642,7 +642,7 @@
         </Automation>
         <Controllable name="gaincontrol" id="223" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="2658" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
+      <Processor id="2658" name="Calf Equalizer 8 Band" active="0" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-4" id="2550" interpolation-style="Discrete" state="Off"/>
           <AutomationList automation-id="parameter-5" id="2552" interpolation-style="Linear" state="Off"/>
@@ -731,8 +731,8 @@
           <Port symbol="p2_freq" value="500"/>
           <Port symbol="p2_q" value="1"/>
           <Port symbol="p3_active" value="1"/>
-          <Port symbol="p3_level" value="0.34464985132217407"/>
-          <Port symbol="p3_freq" value="2098.119140625"/>
+          <Port symbol="p3_level" value="0.31498020887374878"/>
+          <Port symbol="p3_freq" value="915.86199951171875"/>
           <Port symbol="p3_q" value="1"/>
           <Port symbol="p4_active" value="0"/>
           <Port symbol="p4_level" value="1"/>
@@ -771,8 +771,8 @@
         <Controllable name="Freq 2" id="2601" flags="" value="500" parameter="37" symbol="p2_freq"/>
         <Controllable name="Q 2" id="2603" flags="" value="1" parameter="38" symbol="p2_q"/>
         <Controllable name="F3 Active" id="2605" flags="" value="1" parameter="39" symbol="p3_active"/>
-        <Controllable name="Level 3" id="2607" flags="" value="0.34464985132217407" parameter="40" symbol="p3_level"/>
-        <Controllable name="Freq 3" id="2609" flags="" value="2098.119140625" parameter="41" symbol="p3_freq"/>
+        <Controllable name="Level 3" id="2607" flags="" value="0.31498020887374878" parameter="40" symbol="p3_level"/>
+        <Controllable name="Freq 3" id="2609" flags="" value="915.86199951171875" parameter="41" symbol="p3_freq"/>
         <Controllable name="Q 3" id="2611" flags="" value="1" parameter="42" symbol="p3_q"/>
         <Controllable name="F4 Active" id="2613" flags="" value="0" parameter="43" symbol="p4_active"/>
         <Controllable name="Level 4" id="2615" flags="" value="1" parameter="44" symbol="p4_level"/>
@@ -882,7 +882,7 @@
       <Processor id="252" name="bass" active="1" user-latency="0" own-input="1" own-output="0" output="bass" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="238" flags="" value="0.5"/>
+          <Controllable name="pan-azimuth" id="238" flags="" value="1"/>
           <Controllable name="pan-width" id="242" flags="" value="0"/>
           <Controllable name="pan-elevation" id="240" flags="" value="0"/>
           <Controllable name="pan-frontback" id="244" flags="" value="0"/>
@@ -1337,7 +1337,7 @@
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="147" y-off="15" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="310" y-off="0" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -1375,15 +1375,15 @@
       <Window name="PM-249-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-251-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-252-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-2549" visible="0" x-off="9" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-158-2549" visible="0" x-off="172" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="PM-2549-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-2632" visible="0" x-off="15" y-off="32" x-size="847" y-size="404" custom-ui="1"/>
+      <Window name="P-158-2632" visible="0" x-off="178" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-2632-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-219-2658" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-219-2658" visible="0" x-off="172" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="PM-2658-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-219-2740" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-219-2740" visible="0" x-off="178" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="PM-2740-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-2767" visible="0" x-off="153" y-off="107" x-size="570" y-size="254" custom-ui="1"/>
+      <Window name="P-158-2767" visible="0" x-off="316" y-off="0" x-size="570" y-size="254" custom-ui="1"/>
       <Window name="PM-2767-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-219-2781" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-2781-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
