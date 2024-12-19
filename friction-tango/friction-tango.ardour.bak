@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="friction-tango" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="155768" name-counter="1" event-counter="5006" vca-counter="1">
+<Session version="6000" name="friction-tango" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="182790" name-counter="1" event-counter="5079" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4.1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -6837,9 +6837,7 @@
       <Controllable name="solo-iso" id="135274" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="135276" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Vocals Redo" id="135288" direction="Input" default-type="audio">
-        <Port type="audio" name="Vocals Redo/audio_in 1">
-          <Connection other="system:capture_11"/>
-        </Port>
+        <Port type="audio" name="Vocals Redo/audio_in 1"/>
       </IO>
       <IO name="Vocals Redo" id="135289" direction="Output" default-type="audio">
         <Port type="audio" name="Vocals Redo/audio_out 1">
@@ -6849,8 +6847,8 @@
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="135270" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="135270" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="135272" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="135267" interpolation-style="Discrete" state="Off"/>
@@ -6889,7 +6887,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="135263" interpolation-style="Exponential" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="135264" flags="GainLike" value="0.66120392084121704"/>
+        <Controllable name="gaincontrol" id="135264" flags="GainLike" value="0.57834357023239136"/>
       </Processor>
       <Processor id="141373" name="x42-eq - Parametric Equalizer Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/fil4#mono" count="1" custom="0">
         <Automation>
@@ -14075,7 +14073,7 @@
       <Automation>
         <AutomationList automation-id="gain" id="49" interpolation-style="Linear" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="50" flags="GainLike" value="1.2049468755722046"/>
+      <Controllable name="gaincontrol" id="50" flags="GainLike" value="1.6032533645629883"/>
     </Processor>
   </Click>
   <Speakers>
@@ -14181,7 +14179,7 @@
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="611"/>
+      <Window name="about" visible="0" x-off="0" y-off="0" x-size="424" y-size="610"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="652" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
@@ -15467,6 +15465,14 @@
             <Object id="control 155323" visible="0"/>
             <Object id="InlineDisplay" visible="1"/>
           </Object>
+          <Object id="processor 169371">
+            <Object id="control 169358" visible="0"/>
+            <Object id="control 169359" visible="0"/>
+            <Object id="control 169360" visible="0"/>
+            <Object id="control 169361" visible="0"/>
+            <Object id="control 169362" visible="0"/>
+            <Object id="control 169363" visible="0"/>
+          </Object>
         </Object>
         <Object id="rtav 141581" height="66" visible="1"/>
         <Object id="automation 141585" height="66" visible="0"/>
@@ -15531,6 +15537,86 @@
             <Object id="control 141849" visible="0"/>
             <Object id="control 141851" visible="0"/>
             <Object id="control 141853" visible="0"/>
+          </Object>
+          <Object id="processor 169188">
+            <Object id="control 169190" visible="0"/>
+            <Object id="control 169192" visible="0"/>
+            <Object id="control 169194" visible="0"/>
+            <Object id="control 169196" visible="0"/>
+            <Object id="control 169198" visible="0"/>
+            <Object id="control 169200" visible="0"/>
+            <Object id="control 169202" visible="0"/>
+            <Object id="control 169204" visible="0"/>
+            <Object id="control 169206" visible="0"/>
+            <Object id="control 169208" visible="0"/>
+            <Object id="control 169210" visible="0"/>
+            <Object id="control 169212" visible="0"/>
+            <Object id="control 169214" visible="0"/>
+            <Object id="control 169216" visible="0"/>
+            <Object id="control 169218" visible="0"/>
+            <Object id="control 169220" visible="0"/>
+            <Object id="control 169222" visible="0"/>
+            <Object id="control 169224" visible="0"/>
+            <Object id="control 169226" visible="0"/>
+            <Object id="control 169228" visible="0"/>
+            <Object id="control 169230" visible="0"/>
+            <Object id="control 169232" visible="0"/>
+            <Object id="control 169234" visible="0"/>
+            <Object id="control 169236" visible="0"/>
+            <Object id="control 169238" visible="0"/>
+            <Object id="control 169240" visible="0"/>
+            <Object id="control 169242" visible="0"/>
+            <Object id="control 169244" visible="0"/>
+            <Object id="control 169246" visible="0"/>
+            <Object id="control 169248" visible="0"/>
+            <Object id="control 169250" visible="0"/>
+            <Object id="control 169252" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+          <Object id="processor 169258">
+            <Object id="control 169260" visible="0"/>
+            <Object id="control 169262" visible="0"/>
+            <Object id="control 169264" visible="0"/>
+            <Object id="control 169266" visible="0"/>
+            <Object id="control 169268" visible="0"/>
+            <Object id="control 169270" visible="0"/>
+            <Object id="control 169272" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+          <Object id="processor 169276">
+            <Object id="control 169278" visible="0"/>
+            <Object id="control 169280" visible="0"/>
+            <Object id="control 169282" visible="0"/>
+            <Object id="control 169284" visible="0"/>
+            <Object id="control 169286" visible="0"/>
+            <Object id="control 169288" visible="0"/>
+            <Object id="control 169290" visible="0"/>
+            <Object id="control 169292" visible="0"/>
+            <Object id="control 169294" visible="0"/>
+            <Object id="control 169296" visible="0"/>
+            <Object id="control 169298" visible="0"/>
+            <Object id="control 169300" visible="0"/>
+            <Object id="control 169302" visible="0"/>
+            <Object id="control 169304" visible="0"/>
+            <Object id="control 169306" visible="0"/>
+            <Object id="control 169308" visible="0"/>
+            <Object id="control 169310" visible="0"/>
+            <Object id="control 169312" visible="0"/>
+            <Object id="control 169314" visible="0"/>
+            <Object id="control 169316" visible="0"/>
+            <Object id="control 169318" visible="0"/>
+            <Object id="control 169320" visible="0"/>
+            <Object id="control 169322" visible="0"/>
+            <Object id="control 169324" visible="0"/>
+            <Object id="control 169326" visible="0"/>
+            <Object id="control 169328" visible="0"/>
+            <Object id="control 169330" visible="0"/>
+            <Object id="control 169332" visible="0"/>
+            <Object id="control 169334" visible="0"/>
+            <Object id="control 169336" visible="0"/>
+            <Object id="control 169338" visible="0"/>
+            <Object id="control 169340" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
       </GUIObjectState>
